@@ -1,0 +1,110 @@
+@-moz-document domain("wikipedia.org") {
+body {
+    font-size: 18px;
+}
+.mw-parser-output p,
+.mw-body-content ol,
+.mw-body-content ul,
+.mw-parser-output dl {
+    max-width: 100ch;
+    /*line-height: 1.3;*/
+    font-size: 18px;
+    font-family: 'Noto Sans', 'DejaVu Sans', Tahoma, sans-serif;
+    /*hyphens: auto;*/
+}
+.mw-parser-output > ul {
+    font-size: 16px;
+}
+.mw-parser-output > table {
+    font-size: 14px !important;
+}
+table.infobox,
+table.toccolours,
+table.vertical-navbox {
+    width: 25vw !important;
+}
+table.infobox ul {
+    font-size: 14px;
+}
+.mw-parser-output .ts-Цитата-container {
+    width: 100ch;
+    margin-left: 0;
+    font-size: 16px !important;
+}
+div.tleft,
+div.floatleft,
+div.tnone,
+table.floatleft {
+    float: right;
+    clear: right;
+}
+div.center {
+    position: relative;
+    min-height: 50px;
+    /*bottom: 150px;*/
+}
+.thumbinner {
+    width: unset !important;
+}
+a.image img,
+img.thumbimage {
+    width: 90%;
+    height: 90%;
+}
+span.flagicon a.image img,
+a.image img.noviewer {
+    width: unset;
+    height: unset
+}
+.tleft,
+.tright {
+    width: 25vw !important;
+    max-width: initial !important;
+}
+div.tleft {
+    margin-right: 0;
+}
+.navbox:first-of-type,
+table.vertical-navbox,
+table.infobox {
+    width: 25vw !important;
+}
+.mw-parser-output > .navbox {
+    width: unset !important;
+}
+
+.gallery.mw-gallery-packed,
+.gallery.mw-gallery-traditional {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, max-content));
+    flex-wrap: wrap;
+    width: unset !important;
+    max-width: unset !important;
+}
+.gallerybox {
+    width: 100% !important;
+}
+.gallerybox > div,
+.gallerybox .thumb {
+    width: unset !important;
+}
+.gallerybox .thumb {
+    border: none !important;
+}
+.gallerybox .thumb > div {
+    margin: 18px 2px 0 2px !important;
+}
+.gallerybox .thumb .image img {
+    height: 220px;
+    width: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+.gallerytext {
+    text-align: center;
+}
+gallerytext p {
+    margin: 5px auto;
+}
+}
+

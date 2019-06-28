@@ -1,0 +1,6 @@
+@-moz-document domain("youtube.com") {
+ytd-expandable-tab-renderer.ytd-c4-tabbed-header-renderer form.ytd-expandable-tab-renderer paper-input#input {
+    display: block !important;
+}
+}
+

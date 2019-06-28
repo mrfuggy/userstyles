@@ -1,0 +1,6 @@
+@-moz-document domain("rbc.ru") {
+body.news.g-lockscroll.g-application {
+    overflow: scroll;
+}
+}
+

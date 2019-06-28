@@ -1,0 +1,24 @@
+@-moz-document domain("tweetdeck.twitter.com") {
+.is-wide-columns .media-size-large
+{
+    height: 600px !important;
+    background-size: contain !important;
+}
+.is-wide-columns .column
+{
+    width: 33.1% !important;
+}
+.media-item-gif
+{
+    object-fit: contain !important;
+}
+.is-wide-columns .media-size-medium {
+    height: 150px !important;
+    background-size: cover !important;
+    width: 50%;
+}
+.js-search-in-popover .js-popover {
+    width: 900px !important;
+}
+}
+

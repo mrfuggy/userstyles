@@ -1,0 +1,15 @@
+@-moz-document domain("medium.com") {
+.metabar {
+    height: 55px;
+    overflow-y: hidden;
+}
+.js-metabarMiddle {
+    height: 55px !important;
+    max-width: unset !important;
+}
+.js-metabarBottom {
+    top: -55px;
+    max-width: max-content !important;
+}
+}
+

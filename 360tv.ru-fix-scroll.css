@@ -1,0 +1,6 @@
+@-moz-document domain("360tv.ru") {
+.article_container,
+.i_scroll_wrapper {
+    overflow: auto;
+}
+}

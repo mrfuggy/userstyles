@@ -1,0 +1,12 @@
+a:focus,
+a:active,
+button:focus,
+button:enabled:active {
+    outline: 1px dotted gray !important;
+    outline-offset: 0 !important;
+}
+a:focus,
+a:active {
+    text-decoration: underline !important;
+}
+

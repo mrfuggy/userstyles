@@ -1,0 +1,16 @@
+@-moz-document domain("duckduckgo.com") {
+a:focus,
+button:active:focus,
+input:active:focus {
+    outline: 1px dotted white !important;
+}
+.search__clear:focus,
+.search__clear:hover {
+    color: #eee;
+}
+#search_form_input:focus,
+#search_form_input_homepage:focus {
+    outline: none !important;
+}
+}
+
