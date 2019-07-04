@@ -1,0 +1,9 @@
+@-moz-document domain("manjaro.org") {
+.logo-overlay-loader {
+    display: none;
+}
+* {
+    font-family: serif !important;
+}
+}
+
