@@ -1,0 +1,21 @@
+a:focus,
+a:active,
+input:focus,
+input:enabled:active,
+select:focus,
+select:enabled:active
+textarea:focus,
+textarea:enabled:active,
+[tabindex="0"]:focus,
+[tabindex="0"]:enabled:active,
+[contenteditable],
+[contenteditable]:enabled:active,
+button:focus,
+button:enabled:active {
+    outline: 1px dotted gray !important;
+    outline-offset: 0 !important;
+}
+a:focus,
+a:active {
+    text-decoration: underline gray !important;
+}

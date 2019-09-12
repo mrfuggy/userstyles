@@ -3,6 +3,7 @@ Some userstyles to fix some sites
 
 # List of content
 * **global**-outline.css — always *outline* focus for better *accessibility*
+* **global**-outline-max.css — always *outline* focus for better *accessibility* for any tabable element
 * 360tv.ru-fix-scroll.css — fix article scroll with js disabled
 * duckduckgo.com-outline.css — add outline for dark theme
 * manjaro.org-no-js-fix.css — show page without js
