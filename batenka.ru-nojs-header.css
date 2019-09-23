@@ -1,0 +1,9 @@
+@-moz-document domain("batenka.ru") {
+html {
+    visibility: visible !important;
+}
+.header {
+    position: absolute;
+}
+}
+
