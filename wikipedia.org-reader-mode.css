@@ -51,11 +51,35 @@ img.thumbimage {
     width: 90%;
     height: 90%;
 }
+
+a.image img[width="14"],
+a.image img[width="15"],
+a.image img[width="16"],
+a.image img[height="14"],
+a.image img[height="15"],
+a.image img[height="16"] {
+	width: 24px;
+	height: 24px;
+}
+
+.navbox-abovebelow a.image img, .navbox-abovebelow img.thumbimage {
+    width: unset;
+    height: unset;
+}
+.navbox-title a.image img {
+    width: unset;
+    height: unset;
+}
+.reflist ~ * a.image img {
+    max-width: 32px;
+}
+
 span.flagicon a.image img,
 a.image img.noviewer {
     width: unset;
     height: unset
 }
+
 .tleft,
 .tright {
     width: 25vw !important;

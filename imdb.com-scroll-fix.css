@@ -1,0 +1,5 @@
+@-moz-document domain("imdb.com") {
+.wlb_dropdown_list {
+     max-height: 500px;
+}
+}

@@ -4,6 +4,10 @@
     height: 600px !important;
     background-size: contain !important;
 }
+.js-media-native-video {
+    width: 580px;
+    height: 340px;
+}
 .is-wide-columns .column
 {
     width: 33.1% !important;

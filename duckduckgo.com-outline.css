@@ -1,4 +1,7 @@
 @-moz-document domain("duckduckgo.com") {
+a {
+    text-decoration: underline dimgray !important;
+}
 a:focus,
 button:active:focus,
 input:active:focus {

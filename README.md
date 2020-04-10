@@ -5,8 +5,9 @@ Some userstyles to fix some sites
 * **global**-outline.css — always *outline* focus for better *accessibility*
 * **global**-outline-max.css — always *outline* focus for better *accessibility* for any tabable element
 * 360tv.ru-fix-scroll.css — fix article scroll with js disabled
-* batenka.ru-nojs-header.css - fix visible without js
+* batenka.ru-nojs-header.css — fix visible without js
 * duckduckgo.com-outline.css — add outline for dark theme
+* imdb.com-scroll-fix.css — add to list no scroll
 * manjaro.org-no-js-fix.css — show page without js
 * medium.com-compact-header.css — header in one row
 * rbc.ru-fix-scroll.css — fix article scroll with js disabled
