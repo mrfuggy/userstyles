@@ -52,12 +52,20 @@ img.thumbimage {
     height: 90%;
 }
 
+a.image img[width="12"],
+a.image img[width="13"],
 a.image img[width="14"],
 a.image img[width="15"],
 a.image img[width="16"],
+a.image img[width="17"],
+a.image img[width="18"],
+a.image img[height="12"]
+a.image img[height="13"]
 a.image img[height="14"],
 a.image img[height="15"],
-a.image img[height="16"] {
+a.image img[height="16"],
+a.image img[height="17"],
+a.image img[height="18"] {
 	width: 24px;
 	height: 24px;
 }
