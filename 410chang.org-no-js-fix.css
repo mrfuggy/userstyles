@@ -1,0 +1,5 @@
+@-moz-document domain("410chan.org") {
+.spoiler:hover {
+    color: white;
+}
+}
