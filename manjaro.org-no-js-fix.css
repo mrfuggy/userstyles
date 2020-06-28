@@ -2,8 +2,15 @@
 .logo-overlay-loader {
     display: none;
 }
+
 * {
     font-family: serif !important;
+}
+
+/*disable annoying animations*/
+.landing-page .navbar,
+.landing-page .title-container {
+    animation-duration: 0.3s;
 }
 }
 
