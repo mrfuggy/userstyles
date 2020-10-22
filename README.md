@@ -8,6 +8,7 @@ Some userstyles to fix some sites
 * batenka.ru-nojs-header.css — fix visible without js
 * duckduckgo.com-outline.css — add outline for dark theme
 * imdb.com-scroll-fix.css — add to list no scroll
+* kinoafisha.info-wide-column.css - wide column, full width
 * manjaro.org-no-js-fix.css — show page without js
 * medium.com-compact-header.css — header in one row
 * rbc.ru-fix-scroll.css — fix article scroll with js disabled

@@ -1,0 +1,28 @@
+@-moz-document domain("kinoafisha.info") {
+.accordion_item.js-active .accordion_content {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 !important;
+}
+.check-accordion:first-child {
+    margin: .5em 0 !important;
+}
+.grid {
+    width: 95% !important;
+}
+.grid_cell9 {
+    width: 55% !important;
+}
+.grid_cell3 {
+    width: calc(100%/12*5) !important;
+}
+#main-left {
+    width: 100% !important;
+}
+.main_columns {
+    width: 100% !important;
+}
+[class*="grid_cell"] {
+    margin-left: 1em !important;
+}
+}
