@@ -50,8 +50,11 @@ a.image img,
 img.thumbimage {
     width: 90%;
     height: 90%;
+    max-width: 90ch;
 }
 
+a.image img[width="8"],
+a.image img[width="9"],
 a.image img[width="10"],
 a.image img[width="11"],
 a.image img[width="12"],
@@ -63,6 +66,13 @@ a.image img[width="17"],
 a.image img[width="18"],
 a.image img[width="19"],
 a.image img[width="20"],
+a.image img[width="21"],
+a.image img[width="22"],
+a.image img[width="23"],
+a.image img[width="24"],
+a.image img[width="25"],
+a.image img[height="8"],
+a.image img[height="9"],
 a.image img[height="10"],
 a.image img[height="11"],
 a.image img[height="12"],
@@ -73,7 +83,12 @@ a.image img[height="16"],
 a.image img[height="17"],
 a.image img[height="18"],
 a.image img[height="19"],
-a.image img[height="20"] {
+a.image img[height="20"],
+a.image img[height="21"],
+a.image img[height="22"],
+a.image img[height="23"],
+a.image img[height="24"],
+a.image img[height="25"] {
 	width: 24px;
 	height: 24px;
 }
