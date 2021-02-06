@@ -1,0 +1,7 @@
+.ytp-exp-bottom-control-flexbox .ytp-chapter-container {
+    flex: 0 1 50% !important;
+    border: dotted 1px transparent;
+}
+.ytp-exp-bottom-control-flexbox .ytp-chapter-container:hover {
+    border: dotted 1px gray;
+}
